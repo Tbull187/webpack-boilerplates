@@ -16,20 +16,6 @@ module.exports = {
             test: /\.html$/,
             use: 'html-loader'
         }, {
-            test: /\.scss$/,
-            use: [
-                'style-loader', 
-                'css-loader',
-                {
-                    loader: 'postcss-loader',
-                    options: {
-                        plugins: () => {[
-                            require('autoprefixer')
-                        ]}
-                    }
-                },
-                'sass-loader'] 
-        }, {
             test: /\.(jpe?g|png|gif)$/,
             exclude: /(node_modules)/,
             use: 'url-loader?limit=10000'
@@ -39,9 +25,7 @@ module.exports = {
         }, {
             test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
             loader: 'file-loader'
-        }, {
-          
-        }]
+        },]
     },
     plugins: [
         new HtmlWebpackPlugin({
