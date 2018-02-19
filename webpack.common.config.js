@@ -34,19 +34,19 @@ module.exports = {
         new ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
-            "window.jQuery": 'jquery',
-            "windows.jQuery": 'jquery',
+            'window.jQuery': 'jquery',
+        'windows.jQuery': 'jquery',
         })
     ],
     resolve: {        
         alias: {
-            "scrollTo": path.resolve(
+            'scrollTo': path.resolve(
                 __dirname,
-                "node_modules/jquery.scrollto/jquery.scrollTo.min"
+                'node_modules/jquery.scrollto/jquery.scrollTo.min'
             ),
-            "waypoints": path.resolve(
+            'waypoints': path.resolve(
                 __dirname,
-                "node_modules/waypoints/lib/jquery.waypoints.min"
+                'node_modules/waypoints/lib/jquery.waypoints.min'
             ),
         }
     }
