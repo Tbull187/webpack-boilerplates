@@ -16,14 +16,13 @@ module.exports = {
             test: /\.html$/,
             use: 'html-loader'
         }, {
-            test: /\.(jpe?g|png|gif)$/,
-            exclude: /(node_modules)/,
-            use: 'url-loader?limit=10000'
+            test: /\.(jpe?g|png|gif|svg)$/,            
+            use: 'url-loader?limit=10000',
         }, {
             test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
             loader: 'url-loader?limit=10000&minetype=application/font-woff'
         }, {
-            test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+            test: /\.(ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
             loader: 'file-loader'
         },]
     },

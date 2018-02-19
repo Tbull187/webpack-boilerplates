@@ -10,10 +10,6 @@
   },
   "author": "T$",
   "license": "ISC",
-  "browserslist": [
-    "> 1%",
-    "ie > 9"
-  ],
   "dependencies": {
     "animate.css": "git+https://github.com/daneden/animate.css.git",
     "bootstrap": "^3.3.6",
