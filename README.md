@@ -1,17 +1,6 @@
 # Webpack Boilerplate
 
-Originally forked from [@geniuscarrier](https://github.com/geniuscarrier)'s webpack boilerplate, but updated to webpack 3.x with a handfull of improvements.
-
-A webpack3 boilerplate that includes the following libraries:
-
-* jQuery
-* bootstrap
-* font-awesome
-* waypoints
-* jquery.scrollto
-* animate.css
-
-Intended to quickly fire-up a static webpage.
+A webpack3 boilerplate locked-n-loaded with react/babel
 
 ### Setup
 
