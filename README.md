@@ -1,4 +1,4 @@
-# Webpack Boilerplate
+# React Boilerplate
 
 A webpack3 boilerplate locked-n-loaded with react/babel
 
