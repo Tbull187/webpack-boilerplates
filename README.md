@@ -1,6 +1,6 @@
 # Webpack Boilerplates
 
-Welcome. Here you will find several webpack 3.x boilerplate configurations. Master branch is the most basic setup. Checkout other branches to find boilerplate setups for building a static marketing site or react application.
+Here you will find several webpack 3.x boilerplate configurations. Master branch is the most basic setup. Checkout other branches to find boilerplate setups for building a static marketing site or react application.
 
 ## General Configuration
 
