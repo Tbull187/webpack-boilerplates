@@ -1,17 +1,13 @@
-# Webpack Boilerplate
+# Static Site Boilerplate
 
-Originally forked from [@geniuscarrier](https://github.com/geniuscarrier)'s webpack boilerplate, but updated to webpack 3.x with a handfull of improvements.
-
-A webpack3 boilerplate that includes the following libraries:
+A webpack3 boilerplate for quickly firing-up a static webpage. Includes the following commonly used libraries:
 
 * jQuery
 * bootstrap
 * font-awesome
+* animate.css
 * waypoints
 * jquery.scrollto
-* animate.css
-
-Intended to quickly fire-up a static webpage.
 
 ### Setup
 
