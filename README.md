@@ -1,26 +1,23 @@
-# Webpack Boilerplate
+# Webpack Boilerplates
 
-Originally forked from [@geniuscarrier](https://github.com/geniuscarrier)'s webpack boilerplate, but updated to webpack 3.x with a handfull of improvements.
+Welcome. Here you will find several webpack 3.x boilerplate configurations. Master branch is the most basic setup. Checkout other branches to find boilerplate setups for building a static marketing site or react application.
 
-A webpack3 boilerplate that includes the following libraries:
+## General Configuration
 
-* jQuery
-* bootstrap
-* font-awesome
-* waypoints
-* jquery.scrollto
-* animate.css
+The general configuration consists of a development config, a production config, and a common.config which holds properties shared between all configs.
 
-Intended to quickly fire-up a static webpage.
+Some notible inclusions are:
+* `babel` and its corresponding loaders
+* `sass-loader`, to support writing SASS
+* `postCSS` and its `autoprerixer` plugin
+* `extract-text-webpack-plugin` to extract styles to a seperate bundle for production
+* `html-webpack-plugin` to assist with creation of index.html files
 
 ### Setup
 
-```
-npm install
-```
+Run `npm install` in the root
 
-
-### Developing locally
+### Developing Locally
 
 `npm start` starts the webpack-dev-server on `localhost:8080`
 
@@ -36,10 +33,7 @@ This will output a new `dist/` directory to the root that contains the built pro
 
 Notes:
 
-For production webpack will extract all css into a seperate `styles.css` file, instead of inlining it into bundle.js.
+For production webpack will extract all css into a seperate `styles.css` file, instead of inlining into bundle.js.
 
-### About the Webpack Configuration
-
-Coming soon...
 
 
